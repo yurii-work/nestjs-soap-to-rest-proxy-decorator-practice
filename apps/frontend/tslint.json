@@ -1,0 +1,7 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [true, "attribute", "soapToRestProxy", "camelCase"],
+    "component-selector": [true, "element", "soap-to-rest-proxy", "kebab-case"]
+  }
+}
